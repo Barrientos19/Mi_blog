@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio y Blog</title>
+  <!-- Ruta de estilos actualizada -->
+  <link rel="stylesheet" href="./Estilos/blog.css">
+
+  <!-- Métricas: baliza del colector (metrics-navigation). Sin cookies, IP anonimizada.
+       Al publicar en GitHub Pages cambia el origen de src por la URL HTTPS del colector desplegado. -->
+  <script
+    defer
+    src="http://localhost:8000/v1/beacon.js"
+    data-key="pk_live_blog_ddd2df6121a0255987a6922eb4063f07"
+    data-site="blog"
+  ></script>
+</head>
+<body>
+
+  <!-- Cabecera -->
+  <header>
+    <a href="#inicio">Inicio</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#ideas">Ideas</a>
+    <a href="#contacto">Contacto</a>
+  </header>
+
+  <main class="contenedor">
+    
+    <!-- Hero / Bienvenida -->
+    <section id="inicio" class="hero">
+      <h1>Bienvenido a mi espacio creativo</h1>
+      <p>Aquí comparto mis proyectos, experimentos y reflexiones sobre desarrollo y diseño.</p>
+      <a href="#proyectos" class="boton-primario" style="display: inline-block; text-decoration: none;">Ver mi trabajo</a>
+    </section>
+
+    <!-- Mis Proyectos -->
+    <section id="proyectos">
+      <h2>Mis Proyectos</h2>
+      <div class="grid-proyectos">
+        
+        <div class="tarjeta-proyecto">
+          <!-- Ruta de imagen actualizada -->
+          <img src="./Recursos/Avistock.png" alt="Dashboard de Avistock">
+           <h3>Avistock</h3>
+           <p>Sistema de gestión avícola desarrollado como proyecto integrador en 3er cuatrimestre (Ingeniería de en Tecnologías de la Información e Innovación Digital). Permite el control de inventario, ventas, mermas y pedidos en tiempo real.</p>
+        </div>
+
+        <div class="tarjeta-proyecto">
+          <!-- Ruta de imagen actualizada -->
+          <img src="./Recursos/Ajedrez.png" alt="Tutor de Ajedrez">
+            <h3>Tutor de Ajedrez</h3>
+          <p>Proyecto personal de un tutor básico de ajedrez offline. Valida movimientos en un tablero real, no olvida el estado de la partida y cuenta con diferentes modos de juego y dificultad adaptativa.</p>
+        </div>
+
+        <div class="tarjeta-proyecto">
+          <!-- Ruta de imagen actualizada -->
+          <img src="./Recursos/Ingles.png" alt="Tutor de Inglés">
+           <h3>Tutor de Inglés</h3>
+           <p>Proyecto personal diseñado para aprender inglés desde cero. Cuenta con diccionario, lecciones, simulacros, tarjetas de estudio y control de velocidad de audio para practicar la pronunciación.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Mis Ideas -->
+    <section id="ideas">
+      <h2>Mis Ideas</h2>
+      <div class="grid-ideas">
+        
+        <div class="tarjeta-idea">
+          <span class="fecha">29 de Octubre</span>
+          <h3>De Web a Aplicación de Android</h3>
+          <p>El siguiente gran paso para mis tutores de ajedrez e inglés es evolucionarlos de páginas web locales a aplicaciones móviles completas, explorando herramientas como PWA y Capacitor.</p>
+        </div>
+
+        <div class="tarjeta-idea">
+          <span class="fecha">12 de Octubre</span>
+          <h3>Mis herramientas favoritas del año</h3>
+          <p>Una recopilación de las extensiones, editores de código y recursos de diseño que más he utilizado recientemente.</p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Pie de página -->
+  <footer id="contacto">
+    <div class="redes-sociales">
+      <a href="#">Twitter / X</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">GitHub</a>
+    </div>
+    <p class="copyright">© 2026 MiProyecto. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="cms-contenido.js"></script>
+</body>
+</html>
